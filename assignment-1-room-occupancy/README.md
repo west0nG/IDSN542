@@ -2,7 +2,10 @@
 
 A Module 1 classification experiment using environmental sensors instead of a camera. The target is **empty (0)** or **occupied (1)**, converted from the recorded number of people.
 
-## Run
+## Open the notebook
+
+Start with [room_occupancy.ipynb](room_occupancy.ipynb). It walks through the data, target labels, time split, scaling, training, and evaluation, with tables and figures displayed below each step. Explanations are in Chinese; plot labels are in English. Saved outputs are included for GitHub preview.
+
 
 Use Python 3.10 or newer. From this assignment folder:
 
@@ -10,10 +13,12 @@ Use Python 3.10 or newer. From this assignment folder:
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python occupancy.py
+jupyter lab room_occupancy.ipynb
 ```
 
-The dataset is included, so no account or download step is needed. Figures and tables are saved to `results/`. The script also works when launched from another directory.
+The dataset is included, so no account or download step is needed. Select the environment you installed above as the Python kernel. Use **Restart Kernel and Run All Cells** to reproduce the experiment. Figures and tables are saved to `results/`; rerunning overwrites the current result files.
+
+The notebook is the main reading and editing entry point. `python occupancy.py` remains an optional script version of the original fixed experiment. If you change parameters in the notebook, the script will still use its own settings.
 
 ```bash
 python -m unittest -v
@@ -66,6 +71,7 @@ The two-feature model predicts empty for every test observation. Adding sensors 
 
 ## Code map
 
+- `room_occupancy.ipynb`: the main experiment, organized into short executable steps.
 - `perceptron.py`: `fit`, `net_input`, and `predict`, with one weight per feature and one bias.
 - `occupancy.py`: load the data, make the time split, scale features, train both models, and export results.
 - `plot_results.py`: decision regions, update curves, confusion matrices, and predictions over time.
