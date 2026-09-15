@@ -1,0 +1,12 @@
+Room Occupancy Estimation
+
+Singh, A. & Chaudhari, S. (2018). Room Occupancy Estimation [Dataset].
+UCI Machine Learning Repository. https://doi.org/10.24432/C5P605
+License: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+
+Occupancy_Estimation.csv is the unmodified UCI file downloaded on 2026-09-15.
+Binary labels are computed in the notebook; the source data is unchanged.
+
+Algorithm structure follows the IDSN 542 Module 1 perceptron examples
+by Thanassis Rikakis. Notebook prepared with AI assistance.
