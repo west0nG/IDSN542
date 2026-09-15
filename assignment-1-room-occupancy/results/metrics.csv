@@ -1,0 +1,4 @@
+model,accuracy,balanced_accuracy,occupied_precision,occupied_recall,false_empty,false_occupied,true_empty,true_occupied
+Always empty,0.8562347188264059,0.5,0.0,0.0,294,0,1751,0
+Two sensors,0.8562347188264059,0.5,0.0,0.0,294,0,1751,0
+More sensors,0.9100244498777507,0.6870748299319728,1.0,0.3741496598639456,184,0,1751,110
