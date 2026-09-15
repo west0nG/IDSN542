@@ -4,7 +4,7 @@ A Module 1 classification experiment using environmental sensors instead of a ca
 
 ## Open the notebook
 
-Start with [room_occupancy.ipynb](room_occupancy.ipynb). It walks through the data, target labels, time split, scaling, training, and evaluation, with tables and figures displayed below each step. Explanations are in Chinese; plot labels are in English. Saved outputs are included for GitHub preview.
+Start with [room_occupancy.ipynb](room_occupancy.ipynb). It contains the data preparation, training, and evaluation code, with short English headings and inline tables and figures. Saved outputs are included for GitHub preview.
 
 
 Use Python 3.10 or newer. From this assignment folder:

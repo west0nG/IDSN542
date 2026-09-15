@@ -16,7 +16,6 @@ class Perceptron:
         self.errors_ = []
 
         for _ in range(self.n_iter):
-            # Shuffle paired training rows, without changing the time split.
             indices = rgen.permutation(len(y))
             epoch_errors = 0
             for i in indices:
