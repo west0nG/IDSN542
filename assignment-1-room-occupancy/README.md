@@ -4,7 +4,7 @@ A Module 1 classification experiment using environmental sensors instead of a ca
 
 ## Open the notebook
 
-Start with [room_occupancy.ipynb](room_occupancy.ipynb). It contains the data preparation, training, and evaluation code, with short English headings and inline tables and figures. Saved outputs are included for GitHub preview.
+Start with [room_occupancy.ipynb](room_occupancy.ipynb). It contains code cells and saved outputs for data preparation, training, and evaluation. Saved outputs are included for GitHub preview.
 
 
 Use Python 3.10 or newer. From this assignment folder:
@@ -71,7 +71,7 @@ The two-feature model predicts empty for every test observation. Adding sensors 
 
 ## Code map
 
-- `room_occupancy.ipynb`: the main experiment, organized into short executable steps.
+- `room_occupancy.ipynb`: the main experiment, containing only code cells and outputs.
 - `perceptron.py`: `fit`, `net_input`, and `predict`, with one weight per feature and one bias.
 - `occupancy.py`: load the data, make the time split, scale features, train both models, and export results.
 - `plot_results.py`: decision regions, update curves, confusion matrices, and predictions over time.
